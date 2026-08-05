@@ -1,0 +1,133 @@
+.hero{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:rgba(15,23,42,.75);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:28px;
+
+    padding:60px;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+/* Glow */
+
+.hero::before{
+
+    content:"";
+
+    width:350px;
+
+    height:350px;
+
+    background:#2563EB;
+
+    position:absolute;
+
+    right:-100px;
+
+    top:-80px;
+
+    border-radius:50%;
+
+    filter:blur(170px);
+
+    opacity:.35;
+
+}
+
+.hero-left{
+
+    width:55%;
+
+    z-index:2;
+
+}
+
+.hero-left h1{
+
+    font-size:62px;
+
+    margin:15px 0;
+
+}
+
+.hero-left h2{
+
+    color:#3B82F6;
+
+    margin-bottom:15px;
+
+}
+
+.hero-left p{
+
+    color:#CBD5E1;
+
+    line-height:30px;
+
+    margin-bottom:30px;
+
+}
+
+.hero-button{
+
+    display:flex;
+
+    gap:18px;
+
+}
+
+.hero-button a{
+
+    padding:14px 30px;
+
+    border-radius:14px;
+
+    transition:.3s;
+
+}
+
+.btn-primary{
+
+    background:#3B82F6;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.btn-secondary{
+
+    border:2px solid #3B82F6;
+
+}
+
+.btn-secondary:hover{
+
+    background:#3B82F6;
+
+}
+
+.hero-right{
+
+    width:360px;
+
+    z-index:2;
+
+}

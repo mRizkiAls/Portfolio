@@ -1,0 +1,71 @@
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:40px;
+
+}
+
+.search-box{
+
+    width:420px;
+
+    position:relative;
+
+}
+
+.search-box input{
+
+    width:100%;
+
+    padding:15px 50px 15px 20px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:40px;
+
+    background:#0F172A;
+
+    color:white;
+
+}
+
+.search-box i{
+
+    position:absolute;
+
+    right:20px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+}
+
+.profile{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.profile img{
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:50%;
+
+    border:3px solid #3B82F6;
+
+}

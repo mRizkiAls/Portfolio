@@ -1,0 +1,51 @@
+/*==================================
+            SKILLS
+==================================*/
+
+.skills-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+
+    gap:20px;
+
+}
+
+.skill-card{
+
+    background:#0F172A;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    cursor:pointer;
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-8px);
+
+    background:#2563EB;
+
+}
+
+.skill-card i{
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+}
+
+.skill-card h3{
+
+    font-size:16px;
+
+}

@@ -1,0 +1,170 @@
+/*==================================
+        RESPONSIVE
+==================================*/
+
+@media(max-width:1200px){
+
+.hero{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.hero-left{
+
+width:100%;
+
+margin-bottom:40px;
+
+}
+
+.about{
+
+grid-template-columns:1fr;
+
+}
+
+.contact{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:900px){
+
+.sidebar{
+
+width:90px;
+
+}
+
+.logo span{
+
+display:none;
+
+}
+
+.sidebar nav a span{
+
+display:none;
+
+}
+
+.social{
+
+display:none;
+
+}
+
+.content{
+
+margin-left:90px;
+
+width:calc(100% - 90px);
+
+padding:25px;
+
+}
+
+.hero-left h1{
+
+font-size:42px;
+
+}
+
+}
+
+@media(max-width:650px){
+
+.content{
+
+margin-left:0;
+
+width:100%;
+
+}
+
+.sidebar{
+
+display:none;
+
+}
+
+.navbar{
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+.search-box{
+
+width:100%;
+
+}
+
+.hero{
+
+padding:30px;
+
+}
+
+.hero-right{
+
+width:250px;
+
+}
+
+}
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width: 1024px){
+
+    .content{
+        width:100%;
+        margin-left:0;
+        padding:25px;
+    }
+
+    .sidebar{
+        position:fixed;
+        left:-270px;
+        top:0;
+        width:270px;
+        height:100vh;
+        z-index:1000;
+        transition:.3s;
+    }
+
+    .sidebar.active{
+        left:0;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        gap:40px;
+    }
+
+    .about{
+        grid-template-columns:1fr;
+    }
+
+    .project-grid,
+    .skills-grid,
+    .certificate-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
