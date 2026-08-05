@@ -23,7 +23,7 @@ Personal portfolio website of Muhammad Rizki Al Syahputra.
 
 ## 📷 Preview
 
-![Preview](assets/images/preview.png)
+![Preview](assets/img/preview.png)
 
 ## 🌐 Live Demo
 
@@ -32,7 +32,7 @@ https://mrizkials.github.io/Portfolio/
 ## 📬 Contact
 
 - Email: onzimmagcube@gmail.com
-- LinkedIn: https://www.linkedin.com/in/Muhammad Rizki Al Syahputra
+- LinkedIn: https://www.linkedin.com/in/muhammad-rizki-al-syahputra-b4b625404/
 - GitHub: https://github.com/mRizkiAls
 
 ## 📄 License
