@@ -1,1 +1,40 @@
-# Portfolio
+# Rizki.dev Portfolio
+
+Personal portfolio website of Muhammad Rizki Al Syahputra.
+
+## 🚀 Features
+
+- Responsive Design
+- Dark / Light Mode
+- Multi Language (ID / EN)
+- Contact Form (EmailJS)
+- Project Showcase
+- Skills
+- Certificates
+- Smooth Animation
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript
+- EmailJS
+- Font Awesome
+
+## 📷 Preview
+
+![Preview](assets/images/preview.png)
+
+## 🌐 Live Demo
+
+https://mrizkials.github.io/Portfolio/
+
+## 📬 Contact
+
+- Email: onzimmagcube@gmail.com
+- LinkedIn: https://www.linkedin.com/in/Muhammad Rizki Al Syahputra
+- GitHub: https://github.com/mRizkiAls
+
+## 📄 License
+
+MIT License © 2026 Muhammad Rizki Al Syahputra
