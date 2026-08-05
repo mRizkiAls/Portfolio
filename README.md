@@ -23,7 +23,7 @@ Personal portfolio website of Muhammad Rizki Al Syahputra.
 
 ## 📷 Preview
 
-![Preview](assets/img/preview.png)
+![Preview](assets/img/[preview.png](https://github.com/mRizkiAls/Portfolio/blob/main/assets/img/Screenshot%202026-08-05%20105204.png))
 
 ## 🌐 Live Demo
 
